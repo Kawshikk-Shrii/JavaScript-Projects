@@ -33,20 +33,13 @@ No pressure. No complex stuff. Just fundamentals done properly.
 
 Each project has its **own folder** and looks like this:
 
+```text
 project-name/
 ├── index.html
 ├── style.css
 ├── script.js
 └── README.md
-
-project-name/
-├── index.html
-
-├── style.css
-
-├── script.js
-
-└── README.md
+```
 
 Inside every project’s `README.md`, you’ll find:
 - What the project does (in simple words)
