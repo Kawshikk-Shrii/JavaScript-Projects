@@ -1,0 +1,91 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins",sans-serif;
+}
+body{
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.container{
+  padding: 20px 30px;
+  border: 1px dashed;
+  border-radius: 10px;
+}
+.input{
+  display: flex;
+  justify-content: space-between;
+  gap : 10px;
+  width: 200px;
+}
+input[type=text]{
+  padding-left: 10px;
+}
+#task-input{
+  border: 1px solid;
+  border-radius: 6px;
+  outline: none;
+}
+#add-btn{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 5px 10px;
+  border:1px solid;
+  border-radius: 6px;
+  cursor: pointer;
+}
+ul{
+  margin-top: 20px;
+  list-style: none;
+  text-align: left;
+}
+li{
+  margin: 10px 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 100px;
+  padding: 10px 10px;
+  border-radius: 6px;
+  background: beige;
+  border-left: 2px solid brown;
+}
+.edit{
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.status{
+  padding: 0px 6px 1px;
+  font-size: 10px;
+  height: 18px;
+  align-items: center;
+  background-color: rgb(255, 255, 0,0.5);
+  border: 1px solid orange;
+  border-radius: 3px;
+}
+.done{
+  padding: 4px 6px;
+  background: none;
+  border: none;
+  border-radius: 6px ;
+  background-color: green;
+  color: white;
+}
+.remove{
+  padding: 4px 6px;
+  background: none;
+  border: none;
+  border-radius: 6px ;
+  background-color: red;
+  color: white;
+}
+.completed {
+
+  text-decoration: line-through;
+  opacity: 50%;
+}
