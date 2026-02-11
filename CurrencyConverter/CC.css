@@ -1,0 +1,104 @@
+*{
+margin: 0;
+padding: 0;
+}
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background:linear-gradient(#096B68,#90D1CA);
+}
+.main-container{
+    background: radial-gradient(circle at -60%,#FFFBDE,transparent),#129990;
+    padding: 2rem;
+    border: 1px solid white;
+    border-radius: 0.6rem;
+    box-shadow:0 0 10px 0px #FFFBDE;
+    min-height: 45vh;
+    width: 40vh;
+}
+
+.dropdown p{
+    padding-left: 10px;
+    padding-bottom: 5px;
+    font-size: 1.05rem;
+
+}
+#enter{
+    padding-left: 5px;
+    padding-bottom: 5px;
+    font-size: 1.1rem;
+}
+h2{
+    font-size: 2rem;
+    display: flex;
+    justify-content: center;
+}
+form {
+    margin: 2rem 0 1rem;
+}
+form input,select,button{
+    width: 100%;
+    border: none;
+    outline: none;
+    border-radius: 0.4rem;
+}
+form input{
+    margin: 0 0 0.5rem 0;
+    border: 1px solid lightgray;
+    height: 2rem;
+    font-size: 1rem;
+    padding-left: 0.5rem;
+}
+.dropdown{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 1rem;
+}
+.dropdown i{
+    font-size: 1.5rem;
+    margin-top: 1rem;
+}
+.select-container img{
+    width: 2.5rem;
+    margin-right:0.2rem ;
+}
+.select-container{
+    padding: 0.1rem 0 0 0.6rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #90D1CA;
+    border-radius: 10px ;
+    background-color: rgb(255,255,255,0.2);
+    box-shadow: 0  0 10px 0px #129990;
+}
+.select-container select{
+    background-color: transparent;
+    font-size: 0.9rem;
+    cursor: pointer;
+}
+.display{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 2.5rem 0 1.5rem;
+    font-size: 1.2rem;
+}
+form button{
+    margin: 1rem 0;
+    min-height: 2.5rem;
+    font-size: 1rem;
+    background: linear-gradient(45deg , #096B68,#129990);
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    transition: box-shadow ease 0.5s;
+}
+form button:hover{
+    border:1px solid #129990;
+    background-color: #096B68;
+    box-shadow: 0  0 10px 1px #01413a;
+}
