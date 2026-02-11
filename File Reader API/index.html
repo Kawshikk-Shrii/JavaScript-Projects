@@ -3,13 +3,17 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
     <title>File Reader API</title>
 </head>
 <body>
-    <input type = "file" id = "textfile">
-    <pre class = "content1"></pre>
-    <input type = "file" accept = "image/*" id = "imagefile">
-    <img class = "content2" alt = "img" width = "300" height="200"></img>
+    <div class = "container">
+        <h1>File Reader</h1>
+        <input type = "file" id = "textfile" accept="text/*">
+        <pre class = "content1"></pre>
+        <input type = "file" accept = "image/*" id = "imagefile">
+        <img class = "content2" alt = "img" width = "300" height="200"></img>
+    </div>
     <script>
         let txtInput = document.querySelector('#textfile');
         let imgInput = document.querySelector('#imagefile')
