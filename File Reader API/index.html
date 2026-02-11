@@ -32,7 +32,7 @@
         imgInput.addEventListener('change', () =>{
             let file = imgInput.files[0];
             let fr = new FileReader();
-            fr.readAsDataURL(file);
+            fr.readAsDataURL (file);
             fr.onload = () =>{
                 outputEle2.src = fr.result;
             };
