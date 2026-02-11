@@ -1,0 +1,78 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:'Poppins',sans-serif;
+}
+
+body{
+    height:100vh;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    transition: background .4s, color .4s;
+}
+
+/* THEMES */
+
+.light{
+    background:#f4f6fb;
+    color:#111827;
+}
+
+.dark{
+    background:#1a1a1a;
+    color:#e5e7eb;
+}
+
+/* CARD */
+
+.container{
+    width:320px;
+    padding:40px 30px;
+    border-radius:18px;
+    text-align:center;
+    
+    background:inherit;
+
+    box-shadow:
+        0 10px 25px rgba(0,0,0,.08);
+}
+
+/* CLOCK */
+
+.clock h1{
+    font-size:48px;
+    letter-spacing:2px;
+    font-weight:600;
+}
+
+.clock p{
+    margin-top:6px;
+    font-size:14px;
+    opacity:.7;
+    letter-spacing:3px;
+}
+
+/* TOGGLE BUTTON */
+
+#toggle{
+    margin-top:28px;
+    height:42px;
+    border-radius:10px;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    cursor:pointer;
+
+    font-weight:500;
+
+    transition:.25s;
+
+    border:1px solid rgba(128,128,128,.25);
+}
+
+/* Hover = SaaS Feel */
+#toggle:hover{
+    background-color: rgba(128,128,128,.25);
+}
